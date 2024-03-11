@@ -1,12 +1,17 @@
 import React from 'react'; 
-import Nav from "@/Components/Nav";
 import Header from "@/Components/Header";
+import Hero from "@/Components/Hero";
 import { NextPage } from 'next';
 
 const Home: NextPage = () => {
   return (
       <div className="overflow-y-scroll overflow-x-hidden">
         <Header />
+
+        {/* Hero */}
+        <section id="hero" className="snap-start">
+        <Hero />
+        </section>
       </div>
   );  
 };
