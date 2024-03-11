@@ -1,7 +1,14 @@
 import React from 'react'; 
+import Nav from "@/Components/Nav";
+import Header from "@/Components/Header";
+import { NextPage } from 'next';
 
-const HomePage = () => {
-  return <div className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">HomePage</div>;
+const Home: NextPage = () => {
+  return (
+      <div className="overflow-y-scroll overflow-x-hidden">
+        <Header />
+      </div>
+  );  
 };
 
-export default HomePage;
+export default Home;
