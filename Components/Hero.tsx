@@ -1,6 +1,6 @@
 import React from 'react';
-import Link from "next/link";
-import Image from "next/image";
+import Link from 'next/link';
+import Image from 'next/image';
 import heroImage from "../public/static/images/sabrina.png"
 
 type Props = {};
@@ -8,7 +8,7 @@ type Props = {};
 export default function Hero({}: Props) {
     return (
         <div className="flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20">
-            <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10 ">Sabrina Seeks Stories</h1>
+            <h1 className="font-alegreya text-5xl lg:text-6xl font-semibold scroll-px-10 ">Sabrina Seeks Stories</h1>
             <h2 className="w-max text-xs lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[15px]">Front End Developer</h2>
             
             <Image 
