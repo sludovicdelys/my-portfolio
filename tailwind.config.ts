@@ -10,8 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily : {
-        alegreya : ["var(--font-alegreya"],
+      fontFamily: {
+        alegreya: ['var(--font-alegreya'],
+        roboto: ['var(--font-roboto)'],
       }
     },
   },

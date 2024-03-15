@@ -1,18 +1,18 @@
-import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import { Alegreya } from "next/font/google";
+import {  Roboto } from "next/font/google";
+import "@/styles/globals.css";
 
-const alegreya = Alegreya({
-  weight: ['400', '900'],
-  style: ['normal', 'italic'],
+const roboto = Roboto({
+  weight: ['400'],
+  style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-alegreya',
+  variable: '--font-roboto',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return  (
-    <main className={alegreya.className}>
+    <main className={`${roboto.className}`}>
       <Component {...pageProps} />;
     </main>
   )

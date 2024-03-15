@@ -1,15 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { Alegreya } from 'next/font/google';
 import heroImage from "../public/static/images/sabrina.png"
+
+const alegreya = Alegreya({
+    weight: ['600'],
+    style: ['normal'],
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-alegreya',
+})
 
 type Props = {};
 
 export default function Hero({}: Props) {
     return (
         <div className="flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20">
-            <h1 className="font-alegreya text-5xl lg:text-6xl font-semibold scroll-px-10 ">Sabrina Seeks Stories</h1>
-            <h2 className="w-max text-xs lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[15px]">Front End Developer</h2>
+            <h1 className={`${alegreya.className} text-5xl lg:text-6xl scroll-px-10`}>Sabrina Seeks Stories</h1>
+            <h2 className="w-max text-s lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[10px]">Front End Developer</h2>
             
             <Image 
             src={heroImage} 
