@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       fontFamily: {
         alegreya: ['var(--font-alegreya'],
-        roboto: ['var(--font-roboto)'],
+        lexend: ['var(--font-lexend)'],
       }
     },
   },
