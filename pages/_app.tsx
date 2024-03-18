@@ -1,18 +1,18 @@
 import type { AppProps } from "next/app";
-import {  Roboto } from "next/font/google";
+import {  Lexend } from "next/font/google";
 import "@/styles/globals.css";
 
-const roboto = Roboto({
+const lexend = Lexend({
   weight: ['400'],
   style: ['normal'],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-roboto',
+  variable: '--font-lexend',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return  (
-    <main className={`${roboto.className}`}>
+    <main className={`${lexend.className}`}>
       <Component {...pageProps} />;
     </main>
   )
