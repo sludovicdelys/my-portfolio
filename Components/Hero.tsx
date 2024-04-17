@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Alegreya } from 'next/font/google';
-import heroImage from "../public/static/images/watercolor.png"
+import heroImage from "../public/static/images/about.png"
 
 const alegreya = Alegreya({
     weight: ['600'],
@@ -18,11 +18,11 @@ export default function Hero({}: Props) {
     return (
         <div className="h-screen flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20">
             <h1 className={`${alegreya.className} text-5xl lg:text-6xl scroll-px-10`}>Sabrina Seeks Stories</h1>
-            <h2 className="w-max text-s lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[10px]">Front End Developer</h2>
+            <h2 className="w-max text-s lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[10px]">Web Developer</h2>
             
-            <Image 
+            <Image  
             src={heroImage} 
-            alt="Bridgerton watercolor made by author" 
+            alt="Bridgerton watercolor painting made by Sabrina" 
             width={500} 
             height={500} 
             className="relative rounded-full mx-auto object-cover"/>

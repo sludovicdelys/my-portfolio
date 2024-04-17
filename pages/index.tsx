@@ -1,7 +1,8 @@
 import React from 'react'; 
 import Header from "@/Components/Header";
 import Hero from "@/Components/Hero";
-import About from "@/Components/About";
+import About from '@/Components/About';
+import Experience from "@/Components/Experience";
 import { NextPage } from 'next';
 import Head from 'next/head';
 
@@ -22,6 +23,11 @@ const Home: NextPage = () => {
         {/* About */}
         <section id="about" className="snap-start">
         <About />
+        </section>
+
+        {/* Experience */}
+        <section id="experience" className="snap-start">
+        <Experience/>
         </section>
       </div>
   );  

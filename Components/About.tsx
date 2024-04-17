@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Image from 'next/image';
 import authorImage from "../public/static/images/author.png"
 
@@ -13,16 +13,15 @@ export default function About({}: Props) {
             
             <Image 
             src={authorImage} 
-            alt="Picture of the author" 
+            alt="Picture of Sabrina" 
             width={300} 
             height={300} 
             className="-mb-20 md:mb-0 flex-shrink-0 rounded-full mt-12 md:mt-10 md:mt-none object-cover md:rounded-md md:w-200 md:h-200"/>
 
             <div className="space-y-10 px-0 md:px-10 items-center">
                 <p className="text-md md:text-xl">
-                Enchantée, I'm Sabrina, a front-end developer with a rich multicultural and professional background, offering a unique view on blending technology with human experiences. 
-                Approaching each project with humility and curiosity, I see every line of code as an opportunity to learn and create inclusive, user-centric digital experiences.
-                My experience has underscored the value of systemic design in front-end development, highlighting how thoughtful work improves accessibility and relevance online. 
+                Enchantée, my name is Sabrina. As a web developer with a rich multicultural and professional background, I offer a unique perspective on blending technology with human experiences.
+                I view every line of code as a chance to learn and produce inclusive, user-centric digital experiences by approaching each project with humility and curiosity.
                 </p>
             </div>
         </div>
