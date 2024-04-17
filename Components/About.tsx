@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React from 'react';
 import Image from 'next/image';
 import authorImage from "../public/static/images/author.png"
 
@@ -20,7 +20,7 @@ export default function About({}: Props) {
 
             <div className="space-y-10 px-0 md:px-10 items-center">
                 <p className="text-md md:text-xl">
-                Enchantée, my name is Sabrina. As a front-end developer with a rich multicultural and professional background, I offer a unique perspective on blending technology with human experiences.
+                Enchantée, my name is Sabrina. As a web developer with a rich multicultural and professional background, I offer a unique perspective on blending technology with human experiences.
                 I view every line of code as a chance to learn and produce inclusive, user-centric digital experiences by approaching each project with humility and curiosity.
                 </p>
             </div>
