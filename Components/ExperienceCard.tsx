@@ -16,20 +16,20 @@ export default function ExperienceCard({}: Props) {
                     <Image 
                         src={nextLogo} 
                         alt="Next.js logo" 
-                        width={150} 
-                        height={150} 
+                        width={100} 
+                        height={100} 
                         className=""/>
                     <Image 
                         src={typescriptLogo} 
                         alt="TypeScript logo" 
-                        width={150} 
-                        height={150} 
+                        width={100} 
+                        height={100} 
                         className=""/>
                     <Image 
                         src={symfonyLogo} 
                         alt="Symfony logo" 
-                        width={150} 
-                        height={150}
+                        width={100} 
+                        height={100}
                         className=""/>
                 </div>
                 <p className="uppercase py-5 text-gray-500 text-xs md:text-xl text-center">Started on Oct 2022 - Current</p>
