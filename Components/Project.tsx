@@ -15,13 +15,13 @@ export default function Projet({}: Props) {
 
             <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
                 <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-10 md:p-44 h-screen mt-28 md:mt-none">
-                    <Link href="https://gyn-co-memoir.gitlab.io/gyn-co-memoir/">
+                    <Link href="https://gyn-co-memoir.gitlab.io/gyn-co-memoir/" rel="noopener noreferrer" target="_blank">
                         <Image 
                             src={gyncoImage} 
                             alt="Gyn&Co project image" 
-                            width={500} 
-                            height={500} 
-                            className="object-cover"/>
+                            width={600} 
+                            height={600} 
+                            className="object-none"/>
                     </Link>
                     
 
