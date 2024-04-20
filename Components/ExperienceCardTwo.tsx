@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import scssLogo from "../public/scss-logo.png";
-import figmaLogo from "../public/figma-logo.png";
-import twigLogo from "../public/twig-logo.png";
+import scssLogo from "../public/static/logos/scss-logo.png";
+import figmaLogo from "../public/static/logos/figma-logo.png";
+import twigLogo from "../public/static/logos/twig-logo.png";
 
 type Props = {};
 

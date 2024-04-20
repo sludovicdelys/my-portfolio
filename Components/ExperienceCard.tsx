@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import nextLogo from "../public/nextjs-logo.png";
-import typescriptLogo from "../public/ts-logo.png";
-import symfonyLogo from "../public/symfony-logo.png";
+import nextLogo from "../public/static/logos/nextjs-logo.png";
+import typescriptLogo from "../public/static/logos/ts-logo.png";
+import symfonyLogo from "../public/static/logos/symfony-logo.png";
 
 type Props = {};
 
