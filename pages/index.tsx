@@ -7,6 +7,7 @@ import Skills from "@/Components/Skills";
 import Project from '@/Components/Project';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import Contact from '@/Components/Contact';
 
 const Home: NextPage = () => {
   return (
@@ -40,6 +41,11 @@ const Home: NextPage = () => {
         {/* Projects */}
         <section id="projects" className="snap-start">
           <Project/>
+        </section>
+
+        {/* Contact */}
+        <section id="contact" className="snap-start">
+          <Contact/>
         </section>
       </div>
   );  
