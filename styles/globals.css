@@ -8,4 +8,9 @@
     .hero-button {
         @apply px-14 py-4 leading-4	md:leading-5 lg:py-2 lg:border lg:w-fit rounded-full uppercase text-sm transition-all hover:border-purple-800 hover:text-purple-800
     }
+
+    .contactInput{
+        @apply outline-none bg-white rounded border px-0 md:px-6 py-4 border-purple-800 text-black placeholder-purple-400 transition-all focus:border-purple-800/40
+        focus:text-black hover:border-black/40
+    }
 }
