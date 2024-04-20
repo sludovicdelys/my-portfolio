@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import nextLogo from "../public/static/logos/nextjs-logo.png";
 import typescriptLogo from "../public/static/logos/ts-logo.png";
 import symfonyLogo from "../public/static/logos/symfony-logo.png";
@@ -14,24 +15,30 @@ export default function ExperienceCard({}: Props) {
                 <p className="font-bold text:lg md:text-2xl mt-1 text-center">Volunteer Fullstack Developer</p>
                 <ul className="flex space-x-2 my-2 justify-center">
                     <li className="flex justify-center items-center">
+                    <Link href="https://nextjs.org/" rel="noopener noreferrer" target="_blank">
                         <Image 
-                            src={nextLogo} 
-                            alt="Next.js logo" 
-                            className="object-contain h-[70px] w-[70px]"/>
+                        src={nextLogo} 
+                        alt="Next.js logo" 
+                        className="object-contain h-[70px] w-[70px]"/>
+                    </Link>
                     </li>
                     
                     <li className="flex justify-center items-center">
-                        <Image 
+                        <Link href="https://www.typescriptlang.org/" rel="noopener noreferrer" target="_blank">
+                            <Image 
                             src={typescriptLogo} 
                             alt="TypeScript logo" 
                             className="object-contain h-[70px] w-[70px]"/>
+                        </Link>
                     </li>
                     
                     <li className="flex justify-center items-center">
-                        <Image 
+                        <Link href="https://symfony.com/" rel="noopener noreferrer" target="_blank">
+                            <Image 
                             src={symfonyLogo} 
                             alt="Symfony logo" 
                             className="object-contain h-[70px] w-[70px]"/>
+                        </Link>
                     </li>
                 </ul>
                 <p className="uppercase py-5 text-gray-500 text-xs md:text-xl text-center">Started on Oct 2022 - Current</p>
