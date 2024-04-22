@@ -16,7 +16,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
     return (
-        <div className="h-screen flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20">
+        <div className="h-full flex flex-col space-y-1 md:space-y-8 items-center justify-center text-center overflow-hidden mt-20">
             <h1 className={`${alegreya.className} text-5xl lg:text-6xl scroll-px-10`}>Sabrina Seeks Stories</h1>
             <h2 className="w-max text-s lg:text-lg uppercase pb-2 tracking-[5px] lg:tracking-[10px]">Web Developer</h2>
             
@@ -42,6 +42,10 @@ export default function Hero({}: Props) {
 
                 <Link href="#projects">
                     <button className="hero-button">Projects</button>
+                </Link>
+
+                <Link href="#contact">
+                    <button className="hero-button">Contact</button>
                 </Link>
             </div>
         </div>

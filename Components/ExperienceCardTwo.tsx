@@ -9,7 +9,7 @@ type Props = {};
 
 export default function ExperienceCardTwo({}: Props) {
     return (
-        <article className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[600px] xl:w-[900px] snap-center p-5 transition-opacity duration-200 overflow-hidden'>
+        <div className='flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[350px] md:w-[400px] p-5 transition-opacity duration-200 overflow-hidden'>
             <div className="px-0 md:px-5">
                 <h4 className="text-2xl md:text-4xl font-light text-center md:mt-16">Elao</h4>
                 <p className="font-bold text:lg md:text-2xl mt-1 text-center">Web Integrator</p>
@@ -47,6 +47,6 @@ export default function ExperienceCardTwo({}: Props) {
                     <li>Developing and integrating web and mobile components, including ergonomic and graphic adaptations and proposals</li>
                 </ul>
             </div>
-        </article>
+        </div>
     )
 }
