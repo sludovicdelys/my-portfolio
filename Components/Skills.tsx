@@ -16,9 +16,9 @@ type Props = {};
 
 export default function Skills({}: Props) {
     return (
-        <div className="h-screen items-center flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto">
-            <h3 className="absolute top-24 uppercase tracking-[20px]  text-purple-900 text-2xl pl-6 md:pl-0">Skills</h3>
-            <div className="grid grid-cols-4 gap-1 md:gap-5 px-2 md:px-0"> 
+        <div className="container text-center p-5 md:p-10 mx-auto items-center max-w-[500px]">
+            <h3 className="uppercase tracking-[20px] text-center text-purple-900 text-2xl">Skills</h3>
+            <div className="grid grid-cols-4 gap-1 md:gap-5 px-2 md:px-0 pt-10"> 
                 <TechnicalSkill />
                 <TechnicalSkillTwo />
                 <TechnicalSkillThree />

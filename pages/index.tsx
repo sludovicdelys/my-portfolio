@@ -11,7 +11,7 @@ import Contact from '@/Components/Contact';
 
 const Home: NextPage = () => {
   return (
-      <div className="transition-all duration-200 h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-purple-900/20 scrollbar-thumb-[#94a3b8]/80">
+      <div>
         <Head>
           <title>Sabrina Seeks Stories Portfolio</title>
         </Head>
@@ -19,32 +19,32 @@ const Home: NextPage = () => {
         <Header />
 
         {/* Hero */}
-        <section id="hero" className="snap-start">
+        <section id="hero" className="p-8">
           <Hero />
         </section>
 
         {/* About */}
-        <section id="about" className="snap-start">
+        <section id="about" className="px-8 py-28">
           <About />
         </section>
 
         {/* Experience */}
-        <section id="experience" className="snap-start">
+        <section id="experience" className="px-8 py-28">
           <Experience/>
         </section>
 
         {/* Skills */}
-        <section id="skills" className="snap-start">
+        <section id="skills" className="px-8 py-28">
           <Skills/>
         </section>
 
         {/* Projects */}
-        <section id="projects" className="snap-start">
+        <section id="projects" className="px-8 py-28">
           <Project/>
         </section>
 
         {/* Contact */}
-        <section id="contact" className="snap-start">
+        <section id="contact" className="px-8 py-28">
           <Contact/>
         </section>
       </div>

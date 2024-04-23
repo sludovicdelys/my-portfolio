@@ -26,12 +26,11 @@ export default function Contact({}: Props) {
     };
 
     return (
-        <div className="h-screen relative flex overflow-hidden flex-column 
-        text-center md:flex-row max-w-full justify-evenly mx-auto items-center z-0">
-            <h3 className="absolute top-24 uppercase tracking-[20px] text-purple-900 text-2xl pl-6 md:pl-0">Contact 
+        <div className="container text-center p-5 md:p-10 mx-auto max-h-[500px] items-center">
+            <h3 className="uppercase tracking-[20px] text-purple-900 text-2xl pl-6 md:pl-0">Contact 
             </h3>
 
-            <div className="flex flex-col space-y-10 w-screen">
+            <div className="flex flex-col p-10 md:px-10 items-center">
                 <h4 className={`${alegreya.className} text-3xl font-semibold text-center`}>
                    Need To Inquire{" "}
                    <span className="decoration-[#FFFFFF]/50 underline"></span>  
@@ -46,7 +45,7 @@ export default function Contact({}: Props) {
                     </div>
                 </div>
 
-                <form onSubmit={handleSubmit(onSubmit)} className="hidden md:flex flex-col space-y-2 w-fit mx-auto pl-6 overflow-x-scroll scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
+                <form onSubmit={handleSubmit(onSubmit)} className="hidden md:flex flex-col space-y-2 w-fit mx-auto pt-10 overflow-x-scroll scrollbar scrollbar-track-white-400/20 scrollbar-thumb-[#94a3b8]/80">
                     <div className="flex space-x-1 text-center">
                         <input {...register('name')} placeholder="Name" className="contactInput pl-1" type="text"/>
                         <input {...register('email')} placeholder="Email" className="contactInput pl-1" type="email"/>
