@@ -30,8 +30,7 @@ export default function Projet({}: Props) {
                     </h4>
                     <p className="text-md lg:text-xl text-center w-fit lg:w-full">
                         Recently I created this website using Docusaurus and Gitlab Pages to publish my end of the year project report. 
-                        Additionnaly I built a search engine so visitors can find information quickly and efficiently. 
-                        We will also be using this website to write about functionalities we've recently implemented to the platform. 
+                        Additionnaly I built a search engine so visitors can find information quickly and efficiently.  
                     </p>
                 </div>
             </div>
