@@ -16,9 +16,9 @@ type Props = {};
 
 export default function Skills({}: Props) {
     return (
-        <div className="container items-center text-center max-h-[500px] p-10 mx-auto">
+        <div className="container text-center p-5 md:p-10 mx-auto items-center max-w-[500px]">
             <h3 className="uppercase tracking-[20px] text-center text-purple-900 text-2xl">Skills</h3>
-            <div className="flex flex-wrap items-center justify-center gap-10"> 
+            <div className="grid grid-cols-4 gap-1 md:gap-5 px-2 md:px-0 pt-10"> 
                 <TechnicalSkill />
                 <TechnicalSkillTwo />
                 <TechnicalSkillThree />

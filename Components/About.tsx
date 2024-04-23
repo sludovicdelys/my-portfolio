@@ -6,7 +6,7 @@ type Props = {};
 
 export default function About({}: Props) {
     return (
-        <div className="container text-center md:text-left p-10 max-h-[500px] mx-auto items-center">
+        <div className="container text-center md:text-left p-5 md:p-10 mx-auto items-center">
             <h3 className="pl-6 md:pl-0 uppercase tracking-[20px] text-center text-purple-900 text-2xl">
                 About
             </h3>
