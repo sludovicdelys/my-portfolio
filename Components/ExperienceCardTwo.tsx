@@ -40,7 +40,7 @@ export default function ExperienceCardTwo({}: Props) {
                     </li> 
                 </ul>
                 <p className="uppercase py-5 text-gray-500 text-xs md:text-xl text-center">From Aug 2021 - To Feb 2023</p>
-                <ul className="list-disc space-y-4 ml-5 text-sm md:text-md lg:text-lg w-5/6 text-center md:text-left">
+                <ul className="list-disc space-y-4 ml-5 text-sm md:text-md lg:text-lg text-center md:text-left">
                     <li>Cutting and integrating graphic mockups using Figma.</li>
                     <li>Creating static and mail templates using CSS and SASS</li>
                     <li>Creating animations using CSS and SASS</li>

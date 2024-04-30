@@ -26,7 +26,7 @@ export default function Contact({}: Props) {
     };
 
     return (
-        <div className="container text-center p-5 md:p-10 mx-auto max-h-[500px] items-center">
+        <div className="text-center p-5 md:p-10 mx-auto items-center">
             <h3 className="uppercase tracking-[20px] text-purple-900 text-2xl pl-6 md:pl-0">Contact 
             </h3>
 
