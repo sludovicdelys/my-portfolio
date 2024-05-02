@@ -19,32 +19,32 @@ const Home: NextPage = () => {
         <Header />
 
         {/* Hero */}
-        <section id="hero" className="p-8">
+        <section id="hero" className="p-5">
           <Hero />
         </section>
 
         {/* About */}
-        <section id="about" className="px-8 py-28">
+        <section id="about" className="px-5 py-28">
           <About />
         </section>
 
         {/* Experience */}
-        <section id="experience" className="px-8 py-28">
+        <section id="experience" className="px-5 py-28">
           <Experience/>
         </section>
 
         {/* Skills */}
-        <section id="skills" className="px-8 py-28">
+        <section id="skills" className="px-5 py-28">
           <Skills/>
         </section>
 
         {/* Projects */}
-        <section id="projects" className="px-8 py-28">
+        <section id="projects" className="px-5 py-28">
           <Project/>
         </section>
 
         {/* Contact */}
-        <section id="contact" className="px-8 py-28">
+        <section id="contact" className="px-5 py-28">
           <Contact/>
         </section>
       </div>

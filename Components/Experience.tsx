@@ -6,8 +6,8 @@ type Props = {};
 
 export default function Experience({}: Props) {
     return (
-        <div className="text-center p-5 md:p-10 mx-auto items-center">
-            <h3 className="pl-6 md:pl-0 uppercase tracking-[20px] text-center text-purple-900 text-2xl">
+        <div className="text-center mx-auto items-center">
+            <h3 className="uppercase tracking-[20px] text-center text-purple-900 text-2xl">
                 Experience
             </h3>
 
