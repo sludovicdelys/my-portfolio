@@ -5,8 +5,8 @@
 @tailwind utilities;
 
 @layer components {
-    .hero-button {
-        @apply px-14 py-4 leading-4	md:leading-5 lg:py-2 lg:border  w-11/12 lg:w-fit rounded-full uppercase tracking-[1rem] text-sm lg:tracking-widest transition-all hover:border-purple-800 hover:text-purple-800
+    .heroButton {
+        @apply py-5 md:px-14 md:py-4 leading-4	md:leading-5 lg:py-2 lg:border  w-11/12 lg:w-fit rounded-full uppercase text-sm tracking-wide lg:tracking-widest transition-all hover:border-purple-800 hover:text-purple-800
     }
 
     .contactInput{

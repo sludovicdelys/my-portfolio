@@ -19,7 +19,7 @@ const Home: NextPage = () => {
         <Header />
 
         {/* Hero */}
-        <section id="hero" className="p-5">
+        <section id="hero" className="p-5 pb-28">
           <Hero />
         </section>
 

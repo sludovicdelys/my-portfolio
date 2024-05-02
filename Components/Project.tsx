@@ -8,8 +8,8 @@ type Props = {};
 
 export default function Projet({}: Props) {
     return (
-        <div className="text-center mx-auto max-h-[500px] items-center">
-            <h3 className="uppercase tracking-[20px] text-center text-purple-900 text-2xl">
+        <div className="flex flex-col mx-auto items-center">
+            <h3 className="uppercase tracking-widest text-center text-purple-900 text-2xl md:text-4xl">
                 Projects
             </h3>
 
@@ -20,7 +20,7 @@ export default function Projet({}: Props) {
                         alt="Gyn&Co project image" 
                         width={600} 
                         height={600} 
-                        className="object-none"/>
+                        className="object-cover"/>
                 </Link>
                 
 

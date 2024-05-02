@@ -6,8 +6,8 @@ type Props = {};
 
 export default function About({}: Props) {
     return (
-        <div className="text-center md:text-left mx-auto items-center">
-            <h3 className="uppercase tracking-[20px] text-center text-purple-900 text-2xl">
+        <div className="flex flex-col mx-auto items-center">
+            <h3 className="uppercase tracking-widest text-center text-purple-900 text-2xl md:text-4xl">
                 About
             </h3>
 
